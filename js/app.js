@@ -81,12 +81,12 @@ slid__item.forEach((item, i) => {
 function pasarFoto(){
     slid__img[i].style.transform = `translateY(${ (-100) * posicion }%)`
 }
-posicion = 0
-slid__item.forEach((item,i) => {
-    item.addEventListener('click', ()=> {
+// posicion = 0
+// slid__item.forEach((item,i) => {
+//     item.addEventListener('click', ()=> {
 
-    })
-});
+//     })
+// });
 
 /* 
 
